@@ -1,5 +1,17 @@
 # FizzBuzz
+> JS exercise given at HEPL
 
+* * *
+
+**js-tp-fizz-buzz** is an educational project, which will be used for `JS` courses.
+
+**Note:** the school where the course is given, the [HEPL](http://www.provincedeliege.be/hauteecole) from Liège, Belgium, is a french-speaking school. From this point, the instruction will be in french. Sorry.
+
+* * *
+
+> Lors de vos cours de *web*, vous allez découvrir le langage *JavaScript* et le mettre en pratique pour apprendre à rendre vos pages web interactives.  
+
+* * *
 _FizzBuzz_ est un jeu de mots destiné aux enfants pour leur enseigner la division. Les joueurs se relaient pour compter progressivement, remplaçant tout multiple de trois par le mot _fizz_, les multiples de cinq par le mot _buzz_ et les multiples de 3 et de 5 par le mot _fizzbuzz_.
 
 
