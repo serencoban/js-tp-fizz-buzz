@@ -23,9 +23,10 @@ Votre mission est d’afficher dans une liste ordonnée tous les nombres entre 1
 - vous affichez "FizzBuzz" à la place du nombre si celui-ci est divisible à la fois par 3 et par 5.
 
 ![Étape 1](./fizzbuzz.png)
-Vous pouvez commencer par une première version simplifiée en console (Voir TD).
 
 ## Aides
+
+Vous pouvez commencer par une première version simplifiée en console (Voir TD).
 
 1. Supprimer par JavaScript la classe `no-js` de l'élément `body`, afin de faire disparaitre la boite de message pour les personnes n'ayant pas JavaScript activé sur leur navigateur.
 
