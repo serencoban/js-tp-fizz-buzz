@@ -1,19 +1,14 @@
-// eslint-disable-next-line no-undef
-let mix = require('laravel-mix');
-// eslint-disable-next-line no-undef
-require('laravel-mix-eslint');
+document.documentElement.classList.add('js-enabled');
+const olElement = document.getElementById('fizzbuzz');
 
-mix.sass('src/sass/style.scss', 'css/min.style.css').browserSync({
-    proxy: false,
-    server: {
-        baseDir: './'
-    },
-    files: [
-        'js/*.js',
-        'src/sass/**/*.scss',
-        '**/*.html',
-        '**/*.php'
-    ]
-}).options({
-    processCssUrls: false
-});
+for (let i = 1; i <= 100; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {    // (i % 15 === 0)
+        olElement.insertAdjacentHTML('beforeend', '<li class="fizzbuzz">FI<i>zz</i>BU<i>zz</i></li>');
+    } else if (i % 5 === 0) {
+        olElement.insertAdjacentHTML('beforeend', '<li class="buzz">BU<i>zz</i></li>');
+    } else if (i % 3 === 0) {
+        olElement.insertAdjacentHTML('beforeend', '<li class="fizz">FI<i>zz</i></li>');
+    } else {
+        olElement.insertAdjacentHTML('beforeend', `<li>${i}</li>`);
+    }
+}
